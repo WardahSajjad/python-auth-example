@@ -30,7 +30,7 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            your-dockerhub-username/python-app:latest
+            wardasajjad/python-app:latest
         env:
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
           DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
